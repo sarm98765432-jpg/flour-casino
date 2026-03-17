@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background: #0a0a0f;
+  color: white;
+  font-family: Arial;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #111;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #8a2be2;
+}
+
+.balance {
+  background: linear-gradient(45deg, #8a2be2, #00f0ff);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.user {
+  text-align: center;
+  margin: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  background: linear-gradient(45deg, #8a2be2, #00f0ff);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+#game {
+  margin-top: 20px;
+  text-align: center;
+}
